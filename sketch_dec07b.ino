@@ -6,7 +6,7 @@ void setup()
 }
 
 void loop() {
-   if (weekDay == "Monday")
+  else if (weekDay == "Monday")
   {
     message ="เรียนวิชาภาษาอังกฤษ";
   }
@@ -14,7 +14,7 @@ void loop() {
     {
     message = "เรียนวิชาไมโครคอมโทรลเลอร์";
   } 
-    if (weekDay == "Wednesday")
+   else if (weekDay == "Wednesday")
    {
     message = "โครงงาน";
    }
